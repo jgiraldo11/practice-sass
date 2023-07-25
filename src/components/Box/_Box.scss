@@ -1,0 +1,14 @@
+@use "../../styles/variables" as var;
+
+.box-container {
+  background-color: var.$main-color;
+
+  .box-child {
+    background-color: red;
+  }
+
+  .box-grandchild {
+    background-color: green;
+  }
+
+}
